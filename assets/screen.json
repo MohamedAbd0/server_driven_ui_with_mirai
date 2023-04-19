@@ -1,0 +1,56 @@
+{
+  "type": "scaffold",
+  "body": {
+    "type": "column",
+    "mainAxisAlignment": "spaceAround",
+    "crossAxisAlignment": "center",
+    "children": [
+      {
+        "type": "container",
+        "alignment": "center",
+        "child" : {
+          "type": "image",
+          "src": "assets/mirai_banner.png",
+          "imageType": "asset",
+          "height": 150
+        }
+      },
+
+      {
+        "type": "column",
+        "crossAxisAlignment": "center",
+        "children":[
+          {
+            "type": "container",
+            "alignment": "center",
+            "child" : {
+              "type": "text",
+              "data": "Mohamed Abdo",
+              "style": {
+                "fontSize": 25
+              }
+            }
+          },
+          {
+            "type": "container",
+            "alignment": "center",
+            "child" : {
+              "type": "text",
+              "data": "Flutter Developer",
+              "style": {
+                "color": "#00a2f9",
+                "fontSize": 20
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+
+
+
