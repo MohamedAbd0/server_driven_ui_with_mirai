@@ -1,17 +1,26 @@
 # server_driven_ui_with_mirai
 
-A new Flutter project.
+Creating Dynamic and Scalable UI with Server-Driven UI in Flutter with Mirai
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Mirai.fromAsset()
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# server_driven_ui_with_mirai
+This method allows you to load a JSON configuration from a local asset file in your Flutter app. You can specify the asset path of the JSON configuration as a string to this method, and Mirai will load and parse the JSON, and generate the corresponding Flutter widgets. For example:
+![](ScreenShot/fromjson.png)
+
+
+
+# Mirai.fromNetwork()
+
+This method allows you to fetch the JSON configuration from a remote network source, such as an API endpoint. You can pass the URL of the JSON configuration as a string to this method, and Mirai will fetch and parse the JSON, and generate the corresponding Flutter widgets. For example:
+![](ScreenShot/fromnetwork.png)
+
+
+# Mirai.fromJson()
+
+This method allows you to parse a JSON configuration directly from a string in your Flutter app. You can pass the JSON configuration as a string to this method, along with the BuildContext context and Mirai will parse the JSON and generate the Flutter widgets. For example:
+![](ScreenShot/fromasset.png)
+
